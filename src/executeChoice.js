@@ -1,6 +1,7 @@
 import { fcRed, Reset } from './utils/ansiColors.js';
 import listFiles from './choiceFunctions/listFiles.js';
 import createFile from './choiceFunctions/createFile.js';
+import createFolder from './choiceFunctions/createFolder.js';
 import displayMenu from './menu/displayMenu.js';
 
 function excecuteChoice(choice, directory){
@@ -10,6 +11,9 @@ function excecuteChoice(choice, directory){
             break;
         case 3:
             createFile(directory);
+            break;
+        case 4:
+            createFolder(directory);
             break;
         case 10:
             displayMenu(directory);
