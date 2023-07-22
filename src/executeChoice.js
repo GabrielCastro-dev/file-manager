@@ -1,11 +1,15 @@
 import { fcRed, Reset } from './utils/ansiColors.js';
-import listFiles from './choices/listFiles.js';
+import listFiles from './choiceFunctions/listFiles.js';
+import createFile from './choiceFunctions/createFile.js';
 import displayMenu from './menu/displayMenu.js';
 
 function excecuteChoice(choice, directory){
     switch (choice) {
         case 1:
             listFiles(directory);
+            break;
+        case 3:
+            createFile(directory);
             break;
         case 9:
             displayMenu(directory);
