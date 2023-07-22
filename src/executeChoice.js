@@ -3,11 +3,15 @@ import listFiles from './choiceFunctions/listFiles.js';
 import createFile from './choiceFunctions/createFile.js';
 import createFolder from './choiceFunctions/createFolder.js';
 import displayMenu from './menu/displayMenu.js';
+import changeDirectory from './choiceFunctions/changeDirectory.js';
 
 function excecuteChoice(choice, directory){
     switch (choice) {
         case 1:
             listFiles(directory);
+            break;
+        case 2:
+            changeDirectory(directory);
             break;
         case 3:
             createFile(directory);
