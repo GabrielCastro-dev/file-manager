@@ -12,8 +12,9 @@ function displayMenu(directory){
     console.log(`${fcBlue}7.${Reset} Rename a File/Folder`);
     console.log(`${fcBlue}8.${Reset} Write on a File`);
     console.log(`${fcBlue}9.${Reset} Search for a file`);
-    console.log(`${fcBlue}10.${Reset} Show menu again`);
-    console.log(`${fcBlue}11.${Reset} Exit\n`);
+    console.log(`${fcBlue}10.${Reset} Clear the screen`);
+    console.log(`${fcBlue}11.${Reset} Show menu again`);
+    console.log(`${fcBlue}12.${Reset} Exit\n`);
 }
 
 export default displayMenu;

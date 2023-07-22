@@ -20,9 +20,12 @@ function excecuteChoice(choice, directory){
             createFolder(directory);
             break;
         case 10:
-            displayMenu(directory);
+            console.clear();
             break;
         case 11:
+            displayMenu(directory);
+            break;
+        case 12:
             console.log(fcRed + 'Exiting the file manager...' + Reset);
             process.exit();
             break;
