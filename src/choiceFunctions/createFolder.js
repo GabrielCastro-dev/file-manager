@@ -5,7 +5,7 @@ import { fcRed, fcGreen, Reset } from '../utils/ansiColors.js';
 
 function createFolder(directory){
     const folderName = prompt('Enter a name for the folder: ');
-    const folderExists = existsSync(directory + folderName);
+    const folderExists = existsSync(directory.value + folderName);
 
     if(folderExists){
         console.log(fcRed + 'This folder already exists!' + Reset);
@@ -13,7 +13,7 @@ function createFolder(directory){
     }
 
     if(!folderExists || confirmation){
-        mkdirSync(directory + folderName);
+        mkdirSync(directory.value + folderName);
         console.log(fcGreen + 'Folder created successfully.' + Reset);
     }
 }

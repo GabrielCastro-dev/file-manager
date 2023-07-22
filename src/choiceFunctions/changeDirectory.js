@@ -3,9 +3,9 @@ import PromptSync from 'prompt-sync';
 const prompt = PromptSync();
 
 function changeDirectory(directory){
-    directory = prompt('Enter the destination: ');
+    const newDirectory = prompt('Enter the destination: ');
 
-    return directory;
+    directory.value += newDirectory + '/';
 }
 
 export default changeDirectory;

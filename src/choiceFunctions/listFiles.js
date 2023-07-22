@@ -8,7 +8,7 @@ import {
 } from '../utils/ansiColors.js';
 
 function listFiles(directory){
-    const files = readdirSync(directory);
+    const files = readdirSync(directory.value);
 
     console.log(fcBlue + '\nContent whithin this folder: \n' + Reset);
 
