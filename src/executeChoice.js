@@ -11,10 +11,10 @@ function excecuteChoice(choice, directory){
         case 3:
             createFile(directory);
             break;
-        case 9:
+        case 10:
             displayMenu(directory);
             break;
-        case 10:
+        case 11:
             console.log(fcRed + 'Exiting the file manager...' + Reset);
             process.exit();
             break;
