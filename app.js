@@ -6,6 +6,7 @@ function main(){
         value: './files/'
     }
 
+    console.clear();
     displayMenu(directory);
     getUserChoice(directory);
 }
