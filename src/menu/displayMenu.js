@@ -1,4 +1,4 @@
-import { fcBlue, Reset} from './utils/ansiColors.js';
+import { fcBlue, Reset} from '../utils/ansiColors.js';
 
 function displayMenu(directory){
     console.log(`${fcBlue}\nWelcome to the Interactive File Manager!\n${Reset}`);

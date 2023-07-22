@@ -1,6 +1,6 @@
 import { fcRed, Reset } from './utils/ansiColors.js';
 import listFiles from './choices/listFiles.js';
-import displayMenu from './displayMenu.js';
+import displayMenu from './menu/displayMenu.js';
 
 function excecuteChoice(choice, directory){
     switch (choice) {
