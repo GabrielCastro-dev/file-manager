@@ -12,7 +12,7 @@ function displayMenu(directory){
     console.log(`${fcBlue}7.${Reset} Edit a Text File`);
     console.log(`${fcBlue}8.${Reset} Search Files`);
     console.log(`${fcBlue}9.${Reset} Show menu again`);
-    console.log(`${fcBlue}10${Reset}. Exit\n`);
+    console.log(`${fcBlue}10.${Reset} Exit\n`);
 }
 
 export default displayMenu;
