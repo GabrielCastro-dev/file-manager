@@ -4,7 +4,7 @@ function inputValidation(input){
     if(input === '' || input === null || input === undefined){
         return {
             isInputValid: false,
-            message: fcRed + 'Invalid input' + Reset
+            message: `\n${fcRed}Invalid input ${Reset}`
         }
     } else {
         return {
