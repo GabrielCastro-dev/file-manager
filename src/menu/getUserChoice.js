@@ -1,10 +1,10 @@
-import excecuteChoice from './executeChoice.js';
+import excecuteChoice from '../executeChoice.js';
 import PromptSync from 'prompt-sync';
 const prompt = PromptSync();
 
 function getUserChoice(directory){
     while (true) {
-        const choice = prompt('Please choose an option (1-11): ');
+        const choice = prompt('Please choose an option (1-12): ');
         const parsedChoice = parseInt(choice);
 
         excecuteChoice(parsedChoice, directory);
