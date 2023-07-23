@@ -1,4 +1,4 @@
-import excecuteChoice from '../executeChoice.js';
+import excecuteChoice from '../choiceFunctions/executeChoice.js';
 import PromptSync from 'prompt-sync';
 const prompt = PromptSync();
 

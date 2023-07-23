@@ -1,9 +1,9 @@
-import { fcRed, Reset } from './utils/ansiColors.js';
-import listFiles from './choiceFunctions/listFiles.js';
-import createFile from './choiceFunctions/createFile.js';
-import createFolder from './choiceFunctions/createFolder.js';
-import displayMenu from './menu/displayMenu.js';
-import changeDirectory from './choiceFunctions/changeDirectory.js';
+import { fcRed, Reset } from '../utils/ansiColors.js';
+import listFiles from './listFiles.js';
+import createFile from './createFile.js';
+import createFolder from './createFolder.js';
+import displayMenu from '../menu/displayMenu.js';
+import changeDirectory from './changeDirectory.js';
 
 function excecuteChoice(choice, directory){
     switch (choice) {
