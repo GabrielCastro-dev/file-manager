@@ -4,6 +4,7 @@ import createFile from './createFile.js';
 import createFolder from './createFolder.js';
 import displayMenu from '../menu/displayMenu.js';
 import changeDirectory from './changeDirectory.js';
+import deleteResource from './deleteResource.js';
 
 function excecuteChoice(choice, directory){
     switch (choice) {
@@ -18,6 +19,9 @@ function excecuteChoice(choice, directory){
             break;
         case 4:
             createFolder(directory);
+            break;
+        case 5:
+            deleteResource(directory);
             break;
         case 10:
             console.clear();
