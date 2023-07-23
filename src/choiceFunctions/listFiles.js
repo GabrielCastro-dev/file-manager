@@ -10,6 +10,11 @@ import {
 function listFiles(directory){
     const files = readdirSync(directory.value);
 
+    if(files.length === 0){
+        console.log(fcRed + 'This directory is empty' + Reset);
+        return;
+    }
+
     console.log(fcBlue + '\nContent whithin this folder: \n' + Reset);
 
     files.forEach(file => {
