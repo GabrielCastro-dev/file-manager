@@ -26,7 +26,7 @@ function createFolder(directory){
     // Folder creation
     if(!folderExists || confirmation){
         mkdirSync(directory.value + folderName);
-        console.log(fcGreen + 'Folder created successfully.' + Reset);
+        console.log(fcGreen + '\nFolder created successfully.' + Reset);
     }
 }
 
