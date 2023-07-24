@@ -11,7 +11,7 @@ function listFiles(directory){
     const files = readdirSync(directory.value);
 
     if(files.length === 0){
-        console.log(fcRed + 'This directory is empty' + Reset);
+        console.log(fcRed + '\nThis directory is empty' + Reset);
         return;
     }
 

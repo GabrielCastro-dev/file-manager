@@ -35,7 +35,7 @@ function createFile(directory){
             ''
         );
 
-        console.log(fcGreen + 'File created successfully.' + Reset);
+        console.log(fcGreen + '\nFile created successfully.' + Reset);
     }
 }
 
