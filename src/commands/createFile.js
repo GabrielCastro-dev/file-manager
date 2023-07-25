@@ -28,11 +28,27 @@ function createFile(directory){
         }
     }
 
+    const hasContent = prompt('Would you like to write something inside of this file (y/n)? ')
+
+    // Input validation
+    const hasContentValidation = inputValidation(hasContent);
+
+    if(!hasContentValidation.isInputValid){
+        console.log(hasContentValidation.message);
+        return
+    }
+
+    let fileContent = '';
+
+    if(hasContent === 'y'){
+        fileContent = prompt('Enter the content for this file: ');
+    }
+
     // File creation
     if(!fileExists || confirmation){
         writeFileSync(
             directory.value + fileName,
-            ''
+            fileContent
         );
 
         console.log(fcGreen + '\nFile created successfully.' + Reset);
