@@ -1,6 +1,6 @@
 import { fcBlue, Reset} from '../utils/ansiColors.js';
 
-function displayMenu(directory){
+function displayMenu(){
     console.log(`${fcBlue}\nWelcome to the Interactive File Manager!\n${Reset}`);
     console.log(`${fcBlue}1.${Reset} List Files`);
     console.log(`${fcBlue}2.${Reset} Navigate to a Folder`);
