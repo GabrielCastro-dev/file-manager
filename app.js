@@ -1,5 +1,5 @@
-import displayMenu from './src/menu/displayMenu.js';
-import getUserChoice from './src/menu/getUserChoice.js';
+import displayMenu from './src/view/displayMenu.js';
+import getUserChoice from './src/view/getUserChoice.js';
 
 function main(){
     let directory = {

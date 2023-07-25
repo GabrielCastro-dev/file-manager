@@ -1,8 +1,8 @@
 import { fcRed, Reset } from '../utils/ansiColors.js';
+import displayMenu from '../view/displayMenu.js';
 import listFiles from './listFiles.js';
 import createFile from './createFile.js';
 import createFolder from './createFolder.js';
-import displayMenu from '../menu/displayMenu.js';
 import changeDirectory from './changeDirectory.js';
 import deleteResource from './deleteResource.js';
 import getFileByName from './getFileByName.js';
