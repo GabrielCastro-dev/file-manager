@@ -9,6 +9,7 @@ import createFolder from './createFolder.js';
 import changeDirectory from './changeDirectory.js';
 import deleteResource from './deleteResource.js';
 import getFileByName from './getFileByName.js';
+import renameResource from './renameResource.js';
 
 function excecuteChoice(choice, directory){
     switch (choice) {
@@ -26,6 +27,9 @@ function excecuteChoice(choice, directory){
             break;
         case 5:
             deleteResource(directory);
+            break;
+        case 7:
+            renameResource(directory);
             break;
         case 9:
             getFileByName(directory);
