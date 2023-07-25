@@ -1,3 +1,6 @@
+// This file recives user's input data and
+// sends it to the correct function
+
 import { fcRed, Reset } from '../utils/ansiColors.js';
 import displayMenu from '../view/displayMenu.js';
 import listFiles from './listFiles.js';
