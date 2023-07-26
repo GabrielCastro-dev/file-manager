@@ -31,16 +31,16 @@ function excecuteChoice(choice, directory){
         case 7:
             renameResource(directory);
             break;
-        case 9:
+        case 8:
             getFileByName(directory);
             break;
-        case 10:
+        case 9:
             console.clear();
             break;
-        case 11:
+        case 10:
             displayMenu(directory);
             break;
-        case 12:
+        case 11:
             console.log(fcRed + 'Exiting the file manager...' + Reset);
             process.exit();
             break;
